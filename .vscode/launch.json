@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Preprocessing_298cddf6"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Preprocessing_42317831"
+        },
+        {
+            "type": "java",
+            "name": "Launch Weka",
+            "request": "launch",
+            "mainClass": "-Djava.util.logging.config.file=logging.properties -jar",
+            "projectName": "weka.jar",
+            "args": [
+                "weka.jar"
+            ]
+        }
+    ]
+}
