@@ -20,6 +20,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 **Input**: IND,RAIN,IND.1,T.MAX,IND.2,T.MIN,T.MIN.G
 
 **Output**: WIND
+
 **Insignificant feature**: DATE
 - Load data, read data : LoadData(), printTop10Data()
 - Central Tendency of data: calculateMean()
