@@ -1,5 +1,5 @@
 import Preprocessing.Preprocessing;
-import Weka.LinearRegressionModel;
+import Weka.LinearModel;
 import Weka.SVRModel;
 public class App {
     public static void main(String[] args) throws Exception {
@@ -8,7 +8,8 @@ public class App {
         p.start();
             // Đường dẫn đến tệp CSV chứa dữ liệu
         String csvFilePath = "C:/My Downloads/Preprocessing/Data/CleanedData.arff";
-        LinearRegressionModel model1 = new LinearRegressionModel(csvFilePath);
+        LinearModel model1 = new LinearModel(csvFilePath);
+        p.printDash();
         SVRModel svmModel = new SVRModel(csvFilePath);
         
     
