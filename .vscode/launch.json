@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinearRegressionModel",
+            "request": "launch",
+            "mainClass": "Weka.LinearRegressionModel",
+            "projectName": "Preprocessing_298cddf6"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
