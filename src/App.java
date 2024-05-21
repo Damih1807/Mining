@@ -4,7 +4,7 @@ import Weka.SVRModel;
 public class App {
     public static void main(String[] args) throws Exception {
         String filePath = "C:/My Downloads/Preprocessing/Data/wind_dataset.csv";
-        Preprocessing p = new Preprocessing(filePath);
+        Preprocessing p = new PreprocSMOregessing(filePath);
         p.start();
             // Đường dẫn đến tệp CSV chứa dữ liệu
         String csvFilePath = "C:/My Downloads/Preprocessing/Data/CleanedData.arff";

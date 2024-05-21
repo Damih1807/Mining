@@ -2,10 +2,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "java",
-            "name": "LinearRegressionModel",
+            "type": "jdk",
             "request": "launch",
-            "mainClass": "Weka.LinearRegressionModel",
+            "name": "Launch Java App"
+        },
+        {
+            "type": "java",
+            "name": "LinearModel",
+            "request": "launch",
+            "mainClass": "Weka.LinearModel",
             "projectName": "Preprocessing_298cddf6"
         },
         {
